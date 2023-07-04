@@ -1,0 +1,65 @@
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  #datetime-picker {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+    
+    
+  }
+
+  
+  [data-start] {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  [data-start]:hover {
+    background-color: #45a049;
+   
+  }
+  
+  [data-start]:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .timer {
+    text-align: center;
+  }
+  
+  
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .field {
+    text-align: center;
+    margin: 0 10px;
+  }
+  
+  .value {
+    font-size: 48px;
+    font-weight: bold;
+  }
+  
+  .label {
+    font-size: 16px;
+  }
+  
